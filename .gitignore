@@ -1,0 +1,7 @@
+download/
+*.mp4
+*.temp.mp4
+.env
+__pycache__/
+*.pyc
+.DS_Store
