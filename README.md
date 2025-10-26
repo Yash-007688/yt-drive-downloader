@@ -31,7 +31,7 @@ Edit `.env` and set values:
 
 ```
 YOUTUBE_URL=https://www.youtube.com/watch?v=VIDEO_ID
-OUTPUT_DIR=downloads
+OUTPUT_DIR=download
 MAX_COMMENTS=200
 TIMEOUT=20
 ```
@@ -99,7 +99,7 @@ python app.py -f fix
 - `-f, --format`: Format: mp3, mp4, wav, etc. (default: mp4). Use 'fix' to re-encode videos.
 - `-q, --quality`: Quality: 240, 720, 1080, 4k, etc.
 - `-u, --speed`: Playback speed: 0.5, 1.0, 1.5x, 2.0, etc. (default: 1.0)
-- `--output`: Output directory (default: downloads)
+- `--output`: Output directory (default: download)
 - `--drive`: Scrape and download Google Drive links from the video
 - `--max-comments`: Max comments to scan for Drive links (default: 200)
 - `--timeout`: Timeout for requests (default: 20)

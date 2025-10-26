@@ -30,7 +30,7 @@ DRIVE_URL_REGEX = re.compile(
 )
 
 ENV_FILE = ".env"
-DEFAULT_OUTPUT_DIR = "downloads"
+DEFAULT_OUTPUT_DIR = "download"
 
 def fetch_description(video_url: str, timeout: int = 20) -> str:
     # First try pytube
