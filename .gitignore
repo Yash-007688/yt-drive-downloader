@@ -1,4 +1,5 @@
-download/
+download/*
+!download/.gitkeep
 *.mp4
 *.temp.mp4
 .env
